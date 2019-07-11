@@ -16,7 +16,7 @@ module.exports = merge(common, {
 	output: {
 		filename: '[chunkhash].[name].js',
 		chunkFilename: '[id].[chunkhash].js',
-		path: path.join(__dirname, '../dist'),
+		path: path.join(__dirname, '..'),
 		publicPath: '/'
 	},
 	devtool: 'source-map',

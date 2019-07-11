@@ -83,7 +83,7 @@ module.exports = {
 		}),
 
         new HtmlWebpackPlugin({
-            filename: path.join(__dirname, '../dist/index.html'),
+            filename: path.join(__dirname, '../index.html'),
             template: path.join(__dirname, '../src/index.html'),
             minify: true,
             inject: true,
