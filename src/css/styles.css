@@ -1,0 +1,276 @@
+@import 'https://fonts.googleapis.com/css?family=Uncial+Antiqua';
+
+#loading{
+	z-index:999999;
+	display:block;
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	/*background:url(img/loader.gif) 50% 50% no-repeat DarkGreen;*/
+}
+
+.note{
+	z-index:9999999;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	color:  mediumspringgreen;
+}
+
+body,h1,h2,h3,h4,h5,h6 { font-family: 'Trebuchet MS', Arial, sans-serif;}
+body {
+      position: relative; 
+}
+
+p{
+    font-size: 1.05em;
+}
+
+
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    background-color: black;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    opacity: 0.7;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.my-darkgreen{
+    background-color: darkgreen;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url(img/forest_parallax.jpg);
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url(img/band_parallax.jpg);
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url(img/guitar_parallax.jpg);
+    min-height: 400px;
+}
+
+.bgimg-4 {
+    background-image: url(img/sforest_parallax.jpg);
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+.main-heading{ 
+    border: double yellowgreen 5px;
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+.normal{
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+
+/* Yama */
+.pricing-section{
+	padding-top: 5em;
+}
+
+
+.pricing--yama .pricing__item {
+	margin: 1em;
+	padding: 0 0 2em;
+	color: #fff;
+	background: #1e1c20;
+}
+
+.pricing--yama .pricing__title {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.35em;
+	font-weight: 900;
+	line-height: 1;
+	width: 290px;
+	margin: 0 auto;
+	padding: 1em 1em 0em;
+}
+
+.pricing__amp {
+	padding: 0.15em 0 0.1em;
+	color: #0f0e0f;
+}
+
+.pricing--yama .pricing__sentence {
+	margin-bottom: 2em;
+	color: white;
+}
+
+.pricing--yama .pricing__price {
+	font-size: 2em;
+	font-weight: bold;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	padding: 0.75em;
+	cursor: default;
+	color: white;
+    text-shadow: 1px 1px 2px dimgrey, 0 0 25px dimgrey, 0 0 5px dimgrey;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.img_plzen{
+    background-image: url(img/plzen.gif);
+}
+
+.img_praha{
+    background-image: url(img/praha.gif);
+}
+
+.img_brno{
+    background-image: url(img/brno.gif);
+}
+
+.pricing--yama .pricing__item:hover .pricing__price {
+	color: #fff;
+}
+
+.pricing--yama .pricing__price::before {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background:seagreen;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transform: translate3d(-150%,0,0) skewX(40deg);
+	transform: translate3d(-150%,0,0) skewX(40deg);
+}
+
+.pricing--yama .pricing__item:hover .pricing__price::before {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0) skewX(0deg);
+	transform: translate3d(0,0,0) skewX(0deg);
+}
+
+.pricing--yama .pricing__period {
+	font-size: 0.5em;
+	font-weight: 600;
+	display: block;
+	color: white;
+	text-shadow: 1px 1px 2px dimgrey, 0 0 25px dimgrey, 0 0 5px dimgrey;
+}
+
+.pricing--yama .pricing__feature-list {
+	margin: 0;
+	padding: 2em 1em;
+	list-style: none;
+	text-align: center;
+	color: #6a6563;
+}
+
+.pricing--yama .pricing__action {
+	font-weight: bold;
+	margin: 0 2em;
+	padding: 1em 2em;
+	border-radius: 4px;
+	background: seagreen;
+
+	-webkit-transition: background-color 0.3s, color 0.3s;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.pricing--yama .pricing__action:hover,
+.pricing--yama .pricing__action:focus {
+	color: seagreen;
+	background: white;
+}
+.pricing {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	width: 100%;
+	margin: 0 auto 3em;
+}
+
+.pricing__item {
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-webkit-align-items: stretch;
+	align-items: stretch;
+	text-align: center;
+	-webkit-flex: 0 1 330px;
+	flex: 0 1 330px;
+}
+
+.pricing__feature-list {
+	text-align: left;
+}
+
+.pricing__action {
+	color: inherit;
+	border: none;
+	background: none;
+}
+
+.pricing__action:focus {
+	outline: none;
+}
+
+
+
+footer{
+	max-height: 130px;
+	font-weight: 700;
+	line-height: 1;
+	font-size: 1.1em;
+	font-family: 'Sahitya', serif;
+	white-space: pre;
+}
+
+
+/* Turn off parallax scrolling for tablets and mobiles */
+@media only screen and (max-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+	.main-heading{
+		font-size: 10.5px !important;
+	}
+	.text{
+		text-align: center;
+	}
+	.footer{
+		font-size: 8px !important;
+	}
+}
