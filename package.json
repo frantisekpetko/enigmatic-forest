@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Simple webpack starter kit & static server",
     "main": "server.js",
-    "homepage": "https://frantisekpetko.github.io/enigmatic-forest/",
+    "homepage": "https://frantisekpetko.github.io/enigmatic-forest",
     "scripts": {
         "start": "cross-env NODE_ENV=production webpack --config ./webpack/webpack.production.js --mode production && node server",
         "dev": "cross-env NODE_ENV=development webpack-dev-server --config ./webpack/webpack.development.js --hot --inline --mode development",
