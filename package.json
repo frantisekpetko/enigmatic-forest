@@ -38,7 +38,7 @@
         "cross-env": "^5.2.0",
         "file-loader": "^4.0.0",
         "gh-pages": "^2.0.1",
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.0",
         "node-static": "^0.7.11",
         "sweetalert2": "^8.13.4",
         "w3css": "^2.7.0"
