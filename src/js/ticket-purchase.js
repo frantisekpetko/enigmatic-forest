@@ -9,10 +9,10 @@ const btnBrno = document.getElementById("pt-brno");
 
 btnPlzen.addEventListener("click", () => {
     Swal.fire({
-        title: 'Purchase of Ticket Our Pilsen Tour!',
-        animation: false,
-        customClass: {
-        popup: 'animated tada'
+			title: 'Purchase of Ticket Our Pilsen Tour!',
+			animation: false,
+			customClass: {
+			popup: 'animated tada'
         },
         text: "Do you want to buy a Ticket?",
         imageUrl: "https://i.ibb.co/kGHG2H1/plzen.gif",
@@ -31,10 +31,10 @@ btnPlzen.addEventListener("click", () => {
 
 btnPraha.addEventListener("click", () => {
     Swal.fire({
-        title: 'Purchase of Ticket Our Prague Tour!',
-        animation: false,
-        customClass: {
-        popup: 'animated tada'
+			title: 'Purchase of Ticket Our Prague Tour!',
+			animation: false,
+			customClass: {
+			popup: 'animated tada'
         },
         text: "Do you want to buy a Ticket?",
         imageUrl: "https://i.ibb.co/yVdsX4C/praha.gif",
@@ -52,10 +52,10 @@ btnPraha.addEventListener("click", () => {
 
 btnBrno.addEventListener("click", () => {
     Swal.fire({
-        title: 'Purchase of Ticket Our Brno Tour!',
-        animation: false,
-        customClass: {
-        popup: 'animated tada'
+			title: 'Purchase of Ticket Our Brno Tour!',
+			animation: false,
+			customClass: {
+			popup: 'animated tada'
         },
         text: "Do you want to buy a Ticket?",
         imageUrl: "https://i.ibb.co/YPCFHrn/brno.gif",

@@ -11,8 +11,8 @@
         "check-updates": "ncu",
         "check-updates:upgrade": "ncu -a",
         "predeploy": "yarn run vbuild",
-        "deploy": "gh-pages -d vbuild",
-        "vbuild": "npx vite build --base=./",
+        "deploy": "gh-pages -d dist",
+        "vbuild": "vite build --base=./",
         "vdev": "vite dev --base=./"
     },
     "keywords": [
