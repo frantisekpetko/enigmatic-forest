@@ -10,8 +10,8 @@
         "build": "cross-env NODE_ENV=production webpack --config ./webpack/webpack.production.js --mode production",
         "check-updates": "ncu",
         "check-updates:upgrade": "ncu -a",
-        "predeploy": "yarn run build",
-        "deploy": "gh-pages -d build",
+        "predeploy": "yarn run vbuild",
+        "deploy": "gh-pages -d vbuild",
         "vbuild": "npx vite build --base=./",
         "vdev": "vite dev --base=./"
     },
