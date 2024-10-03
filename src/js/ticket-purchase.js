@@ -1,4 +1,4 @@
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
 const btnPlzen = document.getElementById("pt-plzen");
 
@@ -8,7 +8,6 @@ const btnBrno = document.getElementById("pt-brno");
 
 
 btnPlzen.addEventListener("click", () => {
-
     Swal.fire({
         title: 'Purchase of Ticket Our Pilsen Tour!',
         animation: false,

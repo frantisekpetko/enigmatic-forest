@@ -40,9 +40,7 @@
         "cross-env": "^5.2.0",
         "file-loader": "^4.0.0",
         "gh-pages": "^2.0.1",
-        "jquery": "^3.4.1",
         "node-static": "^0.7.11",
-        "sweetalert2": "^8.13.4",
         "w3css": "^2.7.0"
     },
     "devDependencies": {
@@ -71,6 +69,7 @@
         "css-mqpacker": "^7.0.0",
         "cwebp-bin": "^5.0.0",
         "html-webpack-plugin": "^3.2.0",
+        "jquery": "^3.7.1",
         "less": "^3.9.0",
         "less-loader": "^4.1.0",
         "lodash-webpack-plugin": "^0.11.5",
@@ -84,6 +83,7 @@
         "style-loader": "^0.23.1",
         "stylus": "^0.54.5",
         "stylus-loader": "^3.0.2",
+        "sweetalert2": "^11.14.1",
         "terser-webpack-plugin": "^1.2.1",
         "url-loader": "^1.1.2",
         "vite": "^5.4.8",
