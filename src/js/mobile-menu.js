@@ -1,17 +1,28 @@
 const menuBtn = document.getElementById("menuBtn");
-
+const navDemo = document.getElementById("navDemo");
+	
 menuBtn.addEventListener("click", () => {
     showMobileMenu();
 });
 
 function showMobileMenu() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) 
+
+	console.log(navDemo.className.indexOf("w3-show"));
+	console.log('showmobilemenu')
+    if (navDemo.className.indexOf("w3-show") == -1)
     {
-        x.className += " w3-show";
+        navDemo.className += " w3-show";
     } 
     else 
     { 
-        x.className = x.className.replace(" w3-show", "");
+        navDemo.className = navDemo.className.replace(" w3-show", "");
     }
 }
+
+document.querySelectorAll('.w3-navbar a').forEach((anchor) => {
+	if (!anchor.querySelector('.fa-bars')) {
+		anchor.addEventListener('click', () => {
+			document.getElementById("navDemo").className = document.getElementById("navDemo").className.replace(" w3-show", "");
+		});
+	}
+});

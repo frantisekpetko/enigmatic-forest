@@ -15,9 +15,7 @@ module.exports = {
 	},
 	resolve: {
         symlinks: false,
-		alias: {
-
-		},
+		alias: {},
 		extensions: ['.js', '.less', '.styl', '.scss']
 	},
 	stats: {
