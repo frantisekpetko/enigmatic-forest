@@ -1,4 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Uncial+Antiqua';
+@import url('w3css/w3.css');
 
 #loading{
 	z-index:999999;

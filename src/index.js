@@ -1,6 +1,6 @@
-import './style.css';
-import 'w3css/w3.css';
-import './js/ticketPurchase';
-import './js/page-loading';
-import './js/mobile-menu';
-import './js/emailToast';
+import "./js/email-toast";
+import "./js/mobile-menu";
+import "./js/page-loading";
+import "./js/ticket-purchase";
+import "./style.css";
+
